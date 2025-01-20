@@ -89,6 +89,25 @@ h1, p, h2, h3, a {
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
 }
+.centered-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #0077b5; /* LinkedIn color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.social-button:hover {
+    background-color: #005582; /* Darker LinkedIn color */
+}
 
 .download-button:hover {
     background-color: #4CAF50;
