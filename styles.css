@@ -37,9 +37,15 @@ nav ul li {
     margin: 0 15px;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
 }
 
 section {
@@ -53,9 +59,6 @@ section {
     text-align: center;
 }
 
-.project {
-    margin: 20px 0;
-}
 
 .project a {
     color: #4CAF50;
